@@ -1,0 +1,41 @@
+.dynamic-banner {
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-overlay {
+  padding: 40px 50px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  max-width: 850px;
+}
+
+.banner-overlay h1 {
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: var(--tertiary-font);
+}
+
+.banner-overlay h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.banner-overlay p {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.85;
+}

@@ -1,0 +1,75 @@
+.scroll-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: #ffffff;
+  padding: 20px 0;
+  margin: 80px 0px;
+}
+
+.scroll-track {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 12s linear infinite;
+}
+
+.scroll-content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 0 40px;
+  white-space: nowrap;
+}
+
+.text-solid {
+  font-size: 100px;
+  font-weight: 700;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+.text-outline {
+  font-size: 100px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+.scroll-logo {
+  width: 177px;
+  height: 177px;
+  height: auto;
+  object-fit: contain;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .text-solid,
+  .text-outline {
+    font-size: 28px;
+  }
+
+  .scroll-logo {
+    width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-solid,
+  .text-outline {
+    font-size: 22px;
+  }
+
+  .scroll-logo {
+    width: 50px;
+  }
+}

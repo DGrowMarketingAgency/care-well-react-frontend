@@ -1,0 +1,95 @@
+.service-section {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-light-color);
+  padding: 60px 20px;
+}
+.service-section h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.service-sub-heading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.service-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  margin: 0 auto;
+}
+
+.service-box {
+  background: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--black-color);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-box-img img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.service-box-text {
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.service-heading {
+  width: 90%;
+  text-align: center;
+  font-family: var(--primary-font);
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 24px;
+  padding: 14px;
+  border-radius: 11px;
+  display: inline-block;
+  margin-top: -30px;
+  position: absolute;
+  top: 0;
+}
+
+.service-box-text p {
+  margin-top: 17px;
+  font-size: 14px;
+  color: var(--gray-color);
+  line-height: 1.6;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.service-box-btn {
+  width: 100%;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}

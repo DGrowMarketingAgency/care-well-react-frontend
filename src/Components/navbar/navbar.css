@@ -1,0 +1,223 @@
+/* ======================= */
+/* NAVBAR BASE DESIGN */
+/* ======================= */
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: var(--primary-color);
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .container {
+  max-width: 1400px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+/* ======================= */
+/* DESKTOP MENU */
+/* ======================= */
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.desktop-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.desktop-nav ul li {
+  list-style: none;
+}
+
+.desktop-nav ul li a {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.desktop-nav ul li a:hover {
+  color: var(--light-gray-color);
+}
+
+/* ======================= */
+/* BUTTON */
+/* ======================= */
+.book-btn {
+  padding: 10px 20px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.book-btn:hover {
+  background: var(--light-gray-color);
+}
+
+/* ======================= */
+/* DESKTOP DROPDOWN */
+/* ======================= */
+.services-menu {
+  position: relative;
+  cursor: pointer;
+}
+.services-menu span {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background: #fff;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  padding: 12px 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dropdown li a {
+  display: block;
+  color: #222 !important;
+  text-align: start;
+}
+
+/* ======================= */
+/* MOBILE MENU ICON */
+/* ======================= */
+.mobile-menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+/* ======================= */
+/* SIDE MENU */
+/* ======================= */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  width: 300px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -5px 0 20px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  transition: 0.35s ease;
+  z-index: 2000;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close-btn {
+  cursor: pointer;
+}
+
+.side-links {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.side-links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* SIDE MENU BUTTON */
+.side-book-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* ======================= */
+/* MOBILE SERVICE DROPDOWN */
+/* ======================= */
+.mobile-service-toggle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobile-dropdown {
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mobile-dropdown li a {
+  font-size: 18px;
+}
+
+/* ======================= */
+/* RESPONSIVE */
+/* ======================= */
+@media screen and (max-width: 900px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+}
