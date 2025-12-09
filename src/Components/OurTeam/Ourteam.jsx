@@ -49,15 +49,6 @@ const Ourteam = () => {
     <>
       <div className="container">
         <div className="our-team-container">
-          <h2>
-            Your Care <br /> Our Expert Team
-          </h2>
-          <p>
-            Our team includes specialists with years of clinical experience,
-            offering dependable guidance at a trusted multispeciality hospital
-            in Chennai.
-          </p>
-
           <div className="team-container">
             <div className="team-member">
               {getVisibleSlides().map((doc, i) => (

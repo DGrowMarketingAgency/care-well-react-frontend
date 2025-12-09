@@ -8,13 +8,13 @@ import orthoImg from "../assets/about-ban.png";
 import dermaImg from "../assets/about-ban.png";
 import contactImg from "../assets/about-ban.png";
 const bannerData = {
-  "/about": {
-    title: "About Us",
-    subtitle: "Caring for You, Every Step of the Way",
-    description:
-      "At Carewell Hospitals, we blend expert medical care, advanced technology, and genuine compassion to serve patients across Chennai.",
-    image: aboutImg,
-  },
+  // "/about": {
+  //   title: "About Us",
+  //   subtitle: "Caring for You, Every Step of the Way",
+  //   description:
+  //     "At Carewell Hospitals, we blend expert medical care, advanced technology, and genuine compassion to serve patients across Chennai.",
+  //   image: aboutImg,
+  // },
 
   "/general-medicine": {
     title: "Our Services",

@@ -7,19 +7,19 @@ import bow from "../../assets/bow.png";
 const VisionMission = () => {
   return (
     <>
-      <div className="contact-wrapper">
-        <div className="contact-box contact-box1">
+      <div className="vision-wrapper">
+        <div className="vision-box vision-box1">
           <p>Vision & Mission</p>
           <h2>Healthcare Built on Trust, Innovation & Empathy</h2>
         </div>
-        <div className="contact-box contact-box2">
-          <div className="contact-text-sec">
-            <div className="contact-adders-sec">
-              <div className="con-sec-phone">
-                <div className="con-sec-icon">
-                  <img src={rocket} alt="" className="con-icon" />
+        <div className="vision-box vision-box2">
+          <div className="vision-text-sec">
+            <div className="vision-adders-sec">
+              <div className="vision-sec-phone">
+                <div className="vision-sec-icon">
+                  <img src={rocket} alt="" className="vision-icon" />
                 </div>
-                <div className="con-sec-icon-text">
+                <div className="vision-sec-icon-text">
                   <h3> Vision</h3>
                   <p>
                     “Our vision is to be Chennai’s most trusted healthcare
@@ -29,7 +29,7 @@ const VisionMission = () => {
                 </div>
               </div>
               <div className="divider-line-vision"></div>
-              <div className="con-sec-phone">
+              <div className="vision-sec-phone">
                 <div className="con-sec-icon">
                   <img src={bow} alt="" className="con-icon" />
                 </div>
@@ -45,7 +45,7 @@ const VisionMission = () => {
             </div>
           </div>
         </div>
-        <div className="contact-box contact-box3"></div>
+        <div className="vision-box vision-box3"></div>
       </div>
     </>
   );

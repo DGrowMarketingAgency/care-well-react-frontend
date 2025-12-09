@@ -50,6 +50,16 @@ const Home = () => {
       {/* process section */}
       <HomeProcess />
       {/* Our Team */}
+      <div className="our-team-header">
+        <h2>
+          Your Care <br /> Our Expert Team
+        </h2>
+        <p>
+          Our team includes specialists with years of clinical experience,
+          offering dependable guidance at a trusted multispeciality hospital in
+          Chennai.
+        </p>
+      </div>
       <Ourteam />
       {/* Scroll */}
       <ScrollingBanner />

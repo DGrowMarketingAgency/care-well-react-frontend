@@ -1,18 +1,23 @@
-.contact-wrapper {
+.vision-wrapper {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 0.6fr 0.3fr;
   margin-bottom: 50px;
 }
-.contact-box1,
-.contact-box3 {
+.vision-box1,
+.vision-box3 {
   background-color: var(--primary-color);
   height: 400px;
   border-radius: 20px 20px 0px 0px;
 }
-.contact-box2 {
+.vision-box2 {
   height: 520px;
-  background: url("../../assets/contact-box.png") no-repeat;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../../assets/about-box.png") no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 0px 0px 20px 20px;
@@ -20,41 +25,41 @@
   padding-top: 60px;
 }
 
-.contact-text-sec p {
+.vision-text-sec p {
   font-size: 18px;
   font-weight: 400;
   opacity: 0.7;
   margin-bottom: 30px;
 }
-.contact-adders-sec {
+.vision-adders-sec {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-.con-sec-icon-text {
+.vision-sec-icon-text {
   width: 300px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.con-sec-icon-text h3 {
+.vision-sec-icon-text h3 {
   font-size: 30px;
   font-weight: 700;
 }
-.con-sec-icon-text a {
+.vision-sec-icon-text a {
   font-family: var(--primary-font);
   font-size: 20px;
   font-weight: 700;
   color: var(--primary-color);
 }
-.con-sec-phone {
+.vision-sec-phone {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: start;
   gap: 40px;
 }
-.con-sec-icon {
+.vision-sec-icon {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -63,11 +68,11 @@
   align-items: center;
   justify-content: center;
 }
-.con-sec-icon img.con-icon {
+.vision-sec-icon img.vision-icon {
   width: 30px;
   height: 30px;
 }
-.contact-box1 {
+.vision-box1 {
   color: var(--secondary-color);
   padding: 30px 50px;
   display: flex;
@@ -75,12 +80,12 @@
   justify-content: center;
   flex-direction: column;
 }
-.contact-box1 h2 {
+.vision-box1 h2 {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.contact-box1 p {
+.vision-box1 p {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 20px;

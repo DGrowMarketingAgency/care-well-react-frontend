@@ -13,7 +13,7 @@ const ServicesSection = () => {
           <p className="service-sub-heading">
             All Essential Medical Services for Your Family
           </p>
-          <h2>
+          <h2 style={{ marginBottom: "80px" }}>
             As a multispeciality hospital in Chennai, we provide complete
             medical care for all age groups..
           </h2>

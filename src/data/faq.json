@@ -1,0 +1,213 @@
+{
+  "/": [
+    {
+      "q": "Do you provide 24-hour support?",
+      "a": "Yes. We operate as a 24 hour hospital in Chennai with emergency services and pharmacy support."
+    },
+    {
+      "q": "Can I walk in without an appointment?",
+      "a": "Yes, walk-ins are welcome. Priority is given to emergency cases."
+    },
+    {
+      "q": "Do you offer pediatric emergency care?",
+      "a": "Yes, we provide safe and prompt Emergency care in Chennai for children as well."
+    },
+    {
+      "q": "Do you have an in-house laboratory?",
+      "a": "Yes, our lab operates round the clock for quick testing."
+    }
+  ],
+
+  "/general-medicine": [
+    {
+      "q": "How can general medicine help with preventive care?",
+      "a": "General physicians provide guidance on healthy lifestyle choices, vaccinations, screenings, and risk reduction for diseases to maintain long-term health."
+    },
+    {
+      "q": "Are same-day appointments available?",
+      "a": "Yes, most general medicine clinics offer urgent care and same-day appointments for acute health concerns."
+    },
+    {
+      "q": "Can general physicians coordinate specialist care?",
+      "a": "Yes. If you require specialized treatment, a general physician can refer you to the right specialist and coordinate your care."
+    },
+    {
+      "q": "When should I see a general physician instead of a specialist?",
+      "a": "See a general physician for general health issues, sudden illnesses, routine check-ups, or preventive advice. They’ll refer you to a specialist if needed."
+    }
+  ],
+
+  "/gynecology": [
+    {
+      "q": "At what age should I start seeing a gynecologist?",
+      "a": "Start at 13–15 or when sexually active for education and preventive care; annual check-ups with screenings begin by 21."
+    },
+    {
+      "q": "How do I prepare for my gynecology appointment?",
+      "a": "Avoid intercourse, douching, or vaginal meds 24–48 hours prior. Bring your medication list, cycle details, and questions. Wear comfortable, easy-to-remove clothing."
+    },
+    {
+      "q": "Are gynecological procedures covered by insurance?",
+      "a": "Most plans cover annual exams and Pap smears. Coverage for procedures varies—check with your provider. Our staff can help verify benefits and assist with claims."
+    },
+    {
+      "q": "Will I need someone to accompany me for procedures?",
+      "a": "You can drive yourself for minor in-office procedures. For sedation or surgery, arrange a ride and someone to stay with you for 24 hours."
+    },
+    {
+      "q": "What should I do if I experience complications after a procedure?",
+      "a": "Contact us immediately for heavy bleeding, severe pain, fever, foul discharge, or trouble urinating. Call 06381601020 or visit our facility for urgent care."
+    },
+    {
+      "q": "How long should I wait after a procedure before resuming normal activities?",
+      "a": "Office procedures need 1–2 days; surgeries 2–6 weeks. Follow activity guidelines and attend follow-ups for safe healing."
+    }
+  ],
+
+  "/pediatrics": [
+    {
+      "q": "At what age should I bring my child for their first check-up?",
+      "a": "Bring your child for their first pediatric check-up within 3–5 days after birth."
+    },
+    {
+      "q": "How can I tell if my child's fever requires immediate medical attention?",
+      "a": "Seek urgent care for infants under 3 months with fever >100.4°F, any child with fever >104°F, fever >3 days, or severe symptoms. Mild fevers in older children can be monitored at home."
+    },
+    {
+      "q": "Are vaccinations really necessary and are they safe?",
+      "a": "Safe, essential, and life-saving, vaccines protect children from serious diseases. Skipping them increases risk for your child and the community."
+    },
+    {
+      "q": "What should I bring to my child's appointment?",
+      "a": "Vaccination and medical records, current medications, insurance, questions, and for infants—diapers, bottles, and comfort items."
+    },
+    {
+      "q": "How do you help children who are afraid of doctors?",
+      "a": "Use simple language, show equipment, distract with toys/videos, praise cooperation, and prepare children calmly and honestly."
+    },
+    {
+      "q": "Can parents stay with their child during examinations and procedures?",
+      "a": "Parents can stay during most exams and procedures for comfort and support, except in rare emergencies where safety requires otherwise."
+    },
+    {
+      "q": "Do you provide guidance on child nutrition and development?",
+      "a": "Visits cover nutrition, development, behavior, sleep, and parenting guidance—supporting overall health, not just illness."
+    }
+  ],
+
+  "/ent": [
+    {
+      "q": "When should I see an ENT specialist instead of my general doctor?",
+      "a": "See an ENT specialist for persistent issues like chronic sinusitis, recurring ear infections, hoarseness, hearing loss, nasal blockage, dizziness, or neck/throat lumps."
+    },
+    {
+      "q": "Are ENT procedures painful?",
+      "a": "Most ENT diagnostic tests cause little to no pain. Minor procedures are usually painless, and surgeries use anesthesia to ensure comfort."
+    },
+    {
+      "q": "How long does recovery take after ENT surgery?",
+      "a": "Minor procedures take a few days, tonsillectomy 10–14 days, and sinus surgeries 1–2 weeks. Detailed post-operative instructions are provided."
+    },
+    {
+      "q": "Can children receive ENT treatment at your facility?",
+      "a": "Yes, we treat ENT conditions for all ages including ear infections, tonsillitis, adenoid issues, hearing problems, and more."
+    },
+    {
+      "q": "Will my insurance cover ENT services?",
+      "a": "Most insurance plans cover ENT consultations and tests. Surgery may require pre-authorization. Our billing team can help."
+    },
+    {
+      "q": "How do I prepare for an ENT appointment or procedure?",
+      "a": "Bring medical history, avoid loud noise before hearing tests, and follow fasting or medication guidelines if sedation is planned."
+    },
+    {
+      "q": "What causes recurrent ear infections and can they be prevented?",
+      "a": "Recurrent ear infections are often caused by Eustachian tube issues or allergies. Prevention includes allergy management and avoiding smoke."
+    }
+  ],
+
+  "/physiotherapy": [
+    {
+      "q": "What should I wear to my physiotherapy appointment?",
+      "a": "Wear loose, comfortable clothes for easy movement; athletic wear is best."
+    },
+    {
+      "q": "How many physiotherapy sessions will I need?",
+      "a": "Acute issues may need 4–8 sessions; chronic or post-surgical cases may require 12–20+ sessions depending on progress."
+    },
+    {
+      "q": "Will physiotherapy hurt?",
+      "a": "Physiotherapy is mostly pain-free. Mild soreness may occur temporarily."
+    },
+    {
+      "q": "Can physiotherapy really help chronic conditions?",
+      "a": "Yes, it improves pain, mobility, strength, and daily function while reducing flare-ups."
+    },
+    {
+      "q": "Do I need a doctor's referral for physiotherapy?",
+      "a": "You can usually book directly; some insurance plans may require a referral."
+    },
+    {
+      "q": "What's the difference between physiotherapy and massage?",
+      "a": "Physiotherapy treats underlying issues with assessment and exercises; massage mainly reduces muscle tension."
+    }
+  ],
+
+  "/orthopedics": [
+    {
+      "q": "How do I know if I need joint replacement surgery?",
+      "a": "Joint replacement is recommended for severe joint pain limiting daily activities, after other treatments fail."
+    },
+    {
+      "q": "What is the recovery time after orthopedic surgery?",
+      "a": "Arthroscopy: 2–4 weeks, joint replacement: 6–12 weeks, spinal fusion: 3–6 months."
+    },
+    {
+      "q": "Are there alternatives to surgery for joint pain?",
+      "a": "Yes, physiotherapy, medications, injections, bracing, and lifestyle changes are usually tried first."
+    },
+    {
+      "q": "Will I need to stay in the hospital after orthopedic surgery?",
+      "a": "Minor procedures are same-day; major ones may need 2–5 days of hospitalization."
+    },
+    {
+      "q": "How long do joint replacement implants last?",
+      "a": "Implants typically last 15–25+ years depending on activity level and bone quality."
+    },
+    {
+      "q": "Can I return to sports after orthopedic surgery?",
+      "a": "Low-impact sports are usually allowed; high-impact sports depend on the type of surgery and recovery."
+    }
+  ],
+
+  "/dermatology": [
+    {
+      "q": "When should I get a mole checked?",
+      "a": "Check moles that change in size, color, shape, itch, bleed, or look unusual."
+    },
+    {
+      "q": "Are dermatology procedures painful?",
+      "a": "Most procedures cause minimal discomfort, with numbing applied when needed."
+    },
+    {
+      "q": "How soon will I see results from chemical peels?",
+      "a": "Superficial peels show results in 3–5 days; medium peels in 1–2 weeks; deeper peels in 2–3 weeks."
+    },
+    {
+      "q": "Will mole or cyst removal leave a scar?",
+      "a": "Scars are usually minimal and fade over time with proper care."
+    },
+    {
+      "q": "How many sessions for tattoo removal?",
+      "a": "Typically 6–12 sessions are needed, spaced 6–8 weeks apart."
+    },
+    {
+      "q": "Can skin problems indicate other health issues?",
+      "a": "Yes—skin issues can signal hormonal, autoimmune, liver, or nutritional conditions."
+    },
+    {
+      "q": "How should I prepare for a procedure?",
+      "a": "Arrive with clean skin, avoid blood thinners, and disclose allergies/medications."
+    }
+  ]
+}

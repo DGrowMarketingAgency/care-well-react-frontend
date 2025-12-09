@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  font-family: var(--primary-font);
 }
 
 .banner-overlay {
@@ -17,14 +18,24 @@
   border-radius: 10px;
   text-align: center;
   color: #fff;
-  max-width: 850px;
 }
 
 .banner-overlay h1 {
   font-size: 90px;
   font-weight: 700;
   margin-bottom: 10px;
-  font-family: var(--tertiary-font);
+  font-family: var(--primary-font);
+
+  width: 80%;
+  margin: auto;
+}
+.banner-overlay h2 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: var(--primary-font);
+  width: 80%;
+  margin: auto;
 }
 
 .banner-overlay h3 {
@@ -32,10 +43,14 @@
   font-weight: 700;
   margin-bottom: 15px;
   opacity: 0.9;
+  width: 70%;
+  margin: auto;
 }
 
 .banner-overlay p {
   font-size: 18px;
   line-height: 1.6;
   opacity: 0.85;
+  width: 60%;
+  margin: auto;
 }

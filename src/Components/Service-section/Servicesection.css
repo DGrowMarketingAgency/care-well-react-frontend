@@ -10,13 +10,13 @@
   font-weight: 500;
   width: 95%;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 .service-sub-heading {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: var(--primary-color);
 }
 
@@ -71,7 +71,7 @@
 }
 
 .service-box-text p {
-  margin-top: 17px;
+  margin-top: 50px;
   font-size: 14px;
   color: var(--gray-color);
   line-height: 1.6;

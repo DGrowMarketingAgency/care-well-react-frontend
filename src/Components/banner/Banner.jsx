@@ -5,8 +5,8 @@ import "./banner.css";
 
 const Banner = () => {
   const { pathname } = useLocation();
-  const key = pathname.endsWith("/") ? pathname.slice(0, -1) : pathname; // remove trailing slash
-  const content = bannerData[key] || bannerData["/about"]; // fallback to /about if undefined
+  const key = pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+  const content = bannerData[key];
 
   return (
     <div
@@ -16,7 +16,7 @@ const Banner = () => {
       }}
     >
       <div className="banner-overlay">
-        <h1>{content.title}</h1>
+        <h2>{content.title}</h2>
         <h3>{content.subtitle}</h3>
         <p>{content.description}</p>
       </div>
