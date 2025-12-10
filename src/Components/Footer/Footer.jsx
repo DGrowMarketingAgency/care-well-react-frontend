@@ -16,13 +16,21 @@ const Footer = () => {
     }
     setLoading(true);
     try {
-      await fetch("/api", {
+      const res = await fetch("/api", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
       });
-      alert("Subscribed successfully!");
-      setEmail("");
+
+      const text = await res.text(); // Apps Script returns text, not JSON headers
+      const result = JSON.parse(text);
+
+      if (result.success) {
+        alert("Subscribed successfully!");
+        setEmail("");
+      } else {
+        alert("Failed: " + result.message);
+      }
     } catch (err) {
       alert("Subscription failed. Please try again.");
     }
