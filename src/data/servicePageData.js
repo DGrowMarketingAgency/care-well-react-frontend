@@ -139,7 +139,7 @@ const departmentData = {
     ],
   },
 
-  pediatric: {
+  pediatrics: {
     title: " Full Range of Children's Healthcare Services",
     subtitle: "From Newborns to Adolescents, We Care for Every Stage",
     bannerImg: "/assets/pediatric.jpg",
