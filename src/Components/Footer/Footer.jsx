@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./footer.css";
 import footerImg1 from "../../assets/bg-patten.png";
 import logo from "../../assets/logo.png";
@@ -6,6 +6,30 @@ import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubscribe = async () => {
+    if (!email) {
+      alert("Please enter your email");
+      return;
+    }
+    setLoading(true);
+    try {
+      await fetch("/api", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      alert("Subscribed successfully!");
+      setEmail("");
+    } catch (err) {
+      alert("Subscription failed. Please try again.");
+    }
+
+    setLoading(false);
+  };
+
   return (
     <>
       <footer className="footer">
@@ -27,8 +51,15 @@ const Footer = () => {
               </p>
             </div>
             <div className="footer-input-btn">
-              <input type="email" placeholder="Enter your email" />
-              <button>Subscribe</button>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <button onClick={handleSubscribe} disabled={loading}>
+                {loading ? "Subscribing..." : "Subscribe"}
+              </button>
             </div>
           </div>
           {/* line */}

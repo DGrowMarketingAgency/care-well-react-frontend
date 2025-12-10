@@ -11,6 +11,7 @@ import Ent from "./Pages/service/ENT/Ent";
 import Physiotherapy from "./Pages/service/Physiotherapy/Physiotherapy";
 import Orthopedics from "./Pages/service/Orthopedics/Orthopedics";
 import Dermatology from "./Pages/service/Dermatology/Dermatology";
+import Contact from "./Pages/Contact/Contact";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={"blog"} />
-        <Route path="/contact" element={"contact"} />
+        <Route path="/contact" element={<Contact />} />
 
         {/* Service Pages */}
         <Route path="/general-medicine" element={<GeneralMedicine />} />
