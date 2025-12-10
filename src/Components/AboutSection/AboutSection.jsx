@@ -30,7 +30,7 @@ const AboutSection = () => {
         </div>
         <div className="about-text">
           <div className="about-content">
-            <p className="sub-tittle">ABOUT US</p>
+            <p className="about-sub-tittle">ABOUT US</p>
             <h2>Our Practice Excellent Care, Human Principles.</h2>
             <p className="describtion">
               Carewell Hospital functions as a 24 hour hospital in Chennai,
