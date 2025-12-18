@@ -283,11 +283,11 @@
   }
 
   .inner-text-con-about {
-    width: 90vw;
+    width: 100vw;
     position: absolute;
     transform: none;
     margin: 16px auto 0;
-    left: 10%;
+    left: 5%;
   }
 
   .about-content h2 {

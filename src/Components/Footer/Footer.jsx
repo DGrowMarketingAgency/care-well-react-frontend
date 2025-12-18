@@ -3,7 +3,15 @@ import "./footer.css";
 import footerImg1 from "../../assets/bg-patten.png";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  LocateIcon,
+  MapPin,
+  Phone,
+  Twitter,
+  Youtube,
+} from "lucide-react";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -113,8 +121,31 @@ const Footer = () => {
                 </div>
               </div>
               <div className="footer-box footer-box2">
-                <h2>Our Services</h2>
+                <h2>quick links</h2>
                 <ul>
+                  <li>
+                    <Link to={"/"}>Home </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>About </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>Services </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>Blog</Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>Contact </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="footer-box footer-box2">
+                <h2>Our Specialties</h2>
+                <ul>
+                  <li>
+                    <Link to={"/"}>General Medicine </Link>
+                  </li>
                   <li>
                     <Link to={"/"}>Gyenocology </Link>
                   </li>
@@ -125,59 +156,31 @@ const Footer = () => {
                     <Link to={"/"}>Dermatology </Link>
                   </li>
                   <li>
-                    <Link to={"/"}>Diabetes </Link>
+                    <Link to={"/"}>ENT </Link>
                   </li>
                   <li>
-                    <Link to={"/"}>GGeneral Surgery </Link>
+                    <Link to={"/"}>Orthopedic </Link>
                   </li>
                   <li>
-                    <Link to={"/"}>General Medicine</Link>
+                    <Link to={"/"}>Physiotherapy</Link>
                   </li>
                 </ul>
               </div>
               <div className="footer-box footer-box3">
-                <h2>Our Services</h2>
+                <h2>Official Info</h2>
                 <ul>
                   <li>
-                    <Link to={"/"}>Gyenocology </Link>
+                    <MapPin className="foot-icons" />
+                    <p>
+                      2, Trunk Road, Swaminathan Nagar, Pushpa Nagar, Chennai –
+                      600056
+                    </p>
                   </li>
                   <li>
-                    <Link to={"/"}>Pediatrics </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>Dermatology </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>Diabetes </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>GGeneral Surgery </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>General Medicine</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="footer-box footer-box3">
-                <h2>Our Services</h2>
-                <ul>
-                  <li>
-                    <Link to={"/"}>Gyenocology </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>Pediatrics </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>Dermatology </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>Diabetes </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>GGeneral Surgery </Link>
-                  </li>
-                  <li>
-                    <Link to={"/"}>General Medicine</Link>
+                    <a href="tel:6381601020">
+                      <Phone className="foot-icons-phone" />
+                      +91 63816 01020
+                    </a>
                   </li>
                 </ul>
               </div>

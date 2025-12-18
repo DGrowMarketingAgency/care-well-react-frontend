@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ContactSection = () => {
   return (
     <>
-      <div className="contact-wrapper">
+      <div className="contact-wrapper1">
         <div className="contact-box contact-box1"></div>
         <div className="contact-box contact-box2">
           <div className="contact-text-sec">
