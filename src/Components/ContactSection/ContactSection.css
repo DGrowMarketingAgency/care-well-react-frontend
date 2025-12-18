@@ -140,4 +140,9 @@
   .con-sec-icon-text {
     width: 100%;
   }
+  .con-sec-phone {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }

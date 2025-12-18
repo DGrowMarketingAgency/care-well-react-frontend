@@ -112,6 +112,7 @@
 
   .service-container {
     width: 100%;
+    grid-template-columns: 1fr;
   }
 
   .service-section h2 {

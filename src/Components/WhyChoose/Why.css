@@ -176,6 +176,9 @@
 
   .img-why {
     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .why-box-container {
@@ -204,9 +207,8 @@
     grid-template-columns: 1fr;
   }
 
-  .circle-con {
-    width: 240px;
-    height: 240px;
+  .why-img1 img {
+    margin: 0 auto;
   }
 
   .text-circle span {

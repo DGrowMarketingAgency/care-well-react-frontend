@@ -11,7 +11,7 @@
   border-radius: 20px 20px 0px 0px;
 }
 .vision-box2 {
-  height: 520px;
+  height: 100%;
   background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.7),
@@ -112,6 +112,9 @@
   .vision-box1 {
     padding: 30px;
   }
+  .vision-box2 {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -122,6 +125,7 @@
   .vision-box1,
   .vision-box2 {
     border-radius: 20px;
+    height: 100%;
   }
 
   .vision-box1 h2 {
@@ -134,5 +138,8 @@
 
   .vision-sec-icon-text {
     width: 100%;
+  }
+  .img-why {
+    flex-direction: column-reverse;
   }
 }

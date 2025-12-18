@@ -232,8 +232,8 @@
 
   .left-about-img,
   .left-about-img img {
+    width: 100%;
     height: auto;
-    max-height: 520px;
   }
 
   .inner-text-con-about {
@@ -283,9 +283,11 @@
   }
 
   .inner-text-con-about {
-    position: static;
+    width: 90vw;
+    position: absolute;
     transform: none;
     margin: 16px auto 0;
+    left: 10%;
   }
 
   .about-content h2 {

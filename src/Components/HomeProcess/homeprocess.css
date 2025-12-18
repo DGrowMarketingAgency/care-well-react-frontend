@@ -67,6 +67,9 @@
 .process-home-box2 {
   background: url("../../assets/home-process.png");
   color: var(--secondary-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .process-home-box2 .num-text {
   color: var(--secondary-color);

@@ -20,6 +20,7 @@ const doctors = [
 
 const Ourteam = () => {
   const [index, setIndex] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(3);
 
   const nextSlide = () => {
     setIndex((prev) => (prev + 1) % doctors.length);
@@ -29,20 +30,34 @@ const Ourteam = () => {
     setIndex((prev) => (prev - 1 + doctors.length) % doctors.length);
   };
 
-  // Auto-slide every 3 seconds
+  // ✅ RESPONSIVE SLIDES
   useEffect(() => {
-    const auto = setInterval(() => {
-      nextSlide();
-    }, 6000);
+    const handleResize = () => {
+      if (window.innerWidth <= 767) {
+        setVisibleCount(1);
+      } else if (window.innerWidth <= 1024) {
+        setVisibleCount(2);
+      } else {
+        setVisibleCount(3);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Auto-slide
+  useEffect(() => {
+    const auto = setInterval(nextSlide, 6000);
     return () => clearInterval(auto);
   }, []);
 
   const getVisibleSlides = () => {
-    return [
-      doctors[index],
-      doctors[(index + 1) % doctors.length],
-      doctors[(index + 2) % doctors.length],
-    ];
+    return Array.from(
+      { length: visibleCount },
+      (_, i) => doctors[(index + i) % doctors.length]
+    );
   };
 
   return (

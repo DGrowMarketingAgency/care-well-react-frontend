@@ -192,6 +192,9 @@
   .arrow-btn {
     display: none;
   }
+  .testimonial-right {
+    padding-bottom: 20px;
+  }
 }
 
 /* RESPONSIVE */
