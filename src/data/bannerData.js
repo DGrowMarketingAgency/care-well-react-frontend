@@ -1,12 +1,12 @@
 import aboutImg from "../assets/about-ban.png";
-import generalImg from "../assets/about-ban.png";
+import generalImg from "../assets/gendeal-baner.png";
 import gynImg from "../assets/about-ban.png";
 import pedImg from "../assets/about-ban.png";
 import entImg from "../assets/about-ban.png";
 import physioImg from "../assets/about-ban.png";
 import orthoImg from "../assets/about-ban.png";
 import dermaImg from "../assets/about-ban.png";
-import contactImg from "../assets/about-ban.png";
+import contactImg from "../assets/contact-banner.png";
 const bannerData = {
   // "/about": {
   //   title: "About Us",

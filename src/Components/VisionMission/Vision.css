@@ -96,3 +96,43 @@
   background-color: var(--primary-color);
   height: 1.5px;
 }
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .vision-wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+  }
+
+  .vision-box3 {
+    display: none;
+  }
+
+  .vision-box1 {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vision-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .vision-box1,
+  .vision-box2 {
+    border-radius: 20px;
+  }
+
+  .vision-box1 h2 {
+    font-size: 32px;
+  }
+
+  .vision-box1 p {
+    font-size: 20px;
+  }
+
+  .vision-sec-icon-text {
+    width: 100%;
+  }
+}

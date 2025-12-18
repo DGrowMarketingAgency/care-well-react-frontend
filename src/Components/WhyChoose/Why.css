@@ -165,3 +165,59 @@
 .why-box-body p {
   font-size: 15px;
 }
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .why-container {
+    grid-template-columns: 1fr;
+    padding: 80px 40px;
+    row-gap: 40px;
+  }
+
+  .img-why {
+    justify-content: center;
+  }
+
+  .why-box-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .why-container {
+    padding: 60px 16px;
+  }
+
+  .why-heading h2 {
+    font-size: 32px;
+  }
+
+  .why-heading h4 {
+    font-size: 24px;
+  }
+
+  .why-heading p {
+    font-size: 16px;
+  }
+
+  .why-box-container {
+    grid-template-columns: 1fr;
+  }
+
+  .circle-con {
+    width: 240px;
+    height: 240px;
+  }
+
+  .text-circle span {
+    font-size: 18px;
+  }
+
+  .inner-circle h1 {
+    font-size: 36px;
+  }
+
+  .inner-circle p {
+    font-size: 18px;
+  }
+}

@@ -93,3 +93,42 @@
   justify-content: center;
   gap: 8px;
 }
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .service-section h2 {
+    font-size: 36px;
+  }
+
+  .service-sub-heading {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service-section {
+    padding: 40px 16px;
+  }
+
+  .service-container {
+    width: 100%;
+  }
+
+  .service-section h2 {
+    font-size: 30px;
+  }
+
+  .service-sub-heading {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .service-heading {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .service-box-text p {
+    font-size: 13px;
+  }
+}

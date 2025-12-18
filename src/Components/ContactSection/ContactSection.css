@@ -97,3 +97,47 @@
   font-family: var(--primary-font);
   border-radius: 50px;
 }
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .contact-wrapper {
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+  }
+
+  .contact-box1 {
+    display: none;
+  }
+
+  .contact-box3 {
+    grid-column: 1 / -1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-box2 {
+    height: auto;
+  }
+
+  .contact-box3 {
+    border-radius: 0 0 20px 20px;
+    padding: 24px 20px;
+  }
+
+  .contact-box3 h2 {
+    font-size: 32px;
+  }
+
+  .contact-box3 p {
+    font-size: 18px;
+  }
+
+  .con-sec-icon-text {
+    width: 100%;
+  }
+}

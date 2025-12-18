@@ -53,3 +53,57 @@
   width: 60%;
   margin: auto;
 }
+
+/* Responsive for banner (About & other pages) */
+@media screen and (max-width: 1024px) {
+  .dynamic-banner {
+    min-height: 50vh;
+    margin-top: 30px;
+  }
+
+  .banner-overlay h1 {
+    font-size: 60px;
+  }
+
+  .banner-overlay h2 {
+    font-size: 40px;
+    width: 90%;
+  }
+
+  .banner-overlay h3 {
+    font-size: 30px;
+  }
+
+  .banner-overlay p {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dynamic-banner {
+    min-height: 40vh;
+    margin-top: 20px;
+  }
+
+  .banner-overlay {
+    padding: 24px 16px;
+  }
+
+  .banner-overlay h1 {
+    font-size: 36px;
+  }
+
+  .banner-overlay h2 {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .banner-overlay h3 {
+    font-size: 22px;
+  }
+
+  .banner-overlay p {
+    width: 90%;
+    font-size: 16px;
+  }
+}

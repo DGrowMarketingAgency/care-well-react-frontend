@@ -186,3 +186,141 @@
 .highlight-box1 h2 {
   color: var(--secondary-color);
 }
+
+@media screen and (max-width: 1024px) {
+  .home-container {
+    flex-direction: column;
+    padding: 24px 16px;
+    min-height: auto;
+    gap: 24px;
+  }
+
+  .hero-left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero-left .container {
+    width: 100%;
+  }
+
+  .hero-left p {
+    font-size: 28px;
+  }
+
+  .hero-left h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .hero-right {
+    justify-content: center;
+  }
+
+  .hero-right img {
+    width: 65%;
+  }
+
+  .about-section .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-img {
+    height: auto;
+  }
+
+  .left-about-img,
+  .left-about-img img {
+    height: auto;
+    max-height: 520px;
+  }
+
+  .inner-text-con-about {
+    width: 80%;
+    max-width: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .describtion {
+    width: 100%;
+  }
+
+  .highlight-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+
+  .hero-left p {
+    font-size: 22px;
+  }
+
+  .hero-left h1 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  .hero-left .hero-btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .hero-right img {
+    width: 70%;
+  }
+
+  .about-section .container {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 32px;
+  }
+
+  .inner-text-con-about {
+    position: static;
+    transform: none;
+    margin: 16px auto 0;
+  }
+
+  .about-content h2 {
+    font-size: 32px;
+  }
+
+  .about-sub-tittle {
+    font-size: 24px;
+  }
+
+  .highlight-container {
+    flex-direction: column;
+  }
+
+  .highlight-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-right img {
+    width: 80%;
+  }
+
+  .inner-text-con-about {
+    max-width: 320px;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .inner-text-con-about h3 {
+    font-size: 20px;
+  }
+
+  .inner-text-con-about p {
+    font-size: 16px;
+  }
+}

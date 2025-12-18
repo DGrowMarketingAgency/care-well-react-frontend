@@ -165,3 +165,37 @@ button {
   flex-direction: column;
   gap: 35px;
 }
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .contact-wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+    width: 95%;
+    padding: 24px 16px;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+  }
+
+  .contact-right h2 {
+    font-size: 40px;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .terms-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}

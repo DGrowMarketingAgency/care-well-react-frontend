@@ -74,3 +74,48 @@
 .process-home-box2 .process-line {
   background-color: var(--secondary-color);
 }
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .process-home-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .process-home-left p {
+    margin-bottom: 40px;
+  }
+
+  .process-home-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-process-left-img img {
+    width: 100%;
+  }
+  .process-home-container {
+    padding: 60px 16px;
+  }
+
+  .process-home-left h2 {
+    font-size: 30px;
+  }
+
+  .home-process-heading {
+    font-size: 26px;
+  }
+
+  .process-home-left p {
+    font-size: 16px;
+  }
+
+  .process-home-text h2 {
+    font-size: 20px;
+  }
+
+  .process-home-text p {
+    font-size: 16px;
+  }
+}
